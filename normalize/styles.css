@@ -1,0 +1,182 @@
+/* Name: Isabella Maduro
+Student Number: 8649831
+*/
+
+
+html {
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: #fffdfc;
+}
+
+header {
+    background: linear-gradient(to right, #422419, #f90);
+    padding-bottom: -6em;
+    margin: 1rem;
+}
+
+.title {
+    font-size: 2.9em;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff
+    
+}
+
+body {
+    max-width: 1200px;
+    border: 0.1rem solid #ccc;
+    width: 100%;
+    padding-bottom: -6em;
+    margin: 0 auto;
+}
+
+main {
+    float: left;
+    width: 70%;
+    margin-right:auto;
+    padding-bottom: -6em;
+
+}
+
+ h1, h2, h3 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #755640;
+}
+
+figure {
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    padding-bottom: -6em;
+    margin: 1rem;
+}
+
+
+figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #543c28;
+    margin: 1rem;
+}
+
+#biography blockquote {
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    margin: 1rem;
+    color:#9a6f07
+    
+}
+
+
+#Video {
+    clear: both;
+}
+
+
+q {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9a6f07;
+    border: 0.2rem solid #ccc;
+    box-shadow: 0.1rem 0.1rem 0.3rem #999;
+    padding-bottom: -6em;
+    margin: 1rem;
+}
+
+
+
+#Video iframe {
+    border: 0.1rem solid #352601;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9a6f07;
+    padding-bottom: -6em;
+    margin: 1rem;
+}
+aside {
+    font-variant: small-caps;
+    color: #755640;
+    float: right;
+    width: 30%
+
+}
+
+
+#Resource ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Resource ul li a {
+    text-decoration: none;
+    color: #9a6f07;
+    line-height: 1.6;
+}
+
+#Resource ul li a:hover {
+    color: #694003;
+}
+
+
+.form-label {
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #755640;
+    display: block;
+}
+
+
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #432a00;
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    body, #Daguerreotype, #biography, #Video {
+        float: none;
+        margin :auto;
+        width: 100%;
+    }
+
+    input[type="text"], input[type="email"], textarea, select {
+        width: 100%;
+    }
+}
+
+footer {
+    clear: both;
+    background: linear-gradient(to left, #422419, #d07d00);
+    font-size: 0.8em;
+    padding: -3em;
+    text-align: center;
+    color:azure
+}
